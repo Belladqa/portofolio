@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+    <link rel="icon" href="assets/logo2.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--- Header --->
+    <nav class="navbar bg-yellow">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.png" alt="Bootstrap" class="size-logo">
+          </a>
+
+          <button class="navbar-toggler abtme-button px-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            More About Me
+          </button>
+
+          <div class="offcanvas text-navy offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <a href="index.html"><h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fas fa-home fa-lg"></i></h5></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link nav-color fs-4" aria-current="page" href="bio.html">Bio Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-color fs-4" href="#">Me & Friends</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner-container">
+            <div class="row d-flex justify-content-end align-items-center bg-yellow">
+                <div class="col-6">
+                    <img src="assets/bella-banner.png" class="my-5" width="100%" height="auto">
+                  <p class="text-banner mx-3 fs-4">I’m Bella, a motivated student specializing in Multimedia Education at 
+                    the Indonesian Education University. Enthusiastic learner, always staying 
+                    up-to-date with industry trends. I am eager to contribute to the dynamic 
+                    field of Internet Technology and make a positive impact.</p>
+                    <img src="assets/mulmed-banner.png" class="mulmed-banner" width="70%" height="auto">
+                </div>
+                <div class="col-5 p-0 d-flex justify-content-center">
+                  <img src="assets/Formal.png" class="border-bottom-cust" width="75%" height="auto">
+                </div>
+            </div>
+            <img src="assets/bg-bannerr.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--- Main --->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="row mt-5 align-items-center d-flex justify-content-center">
+                <div class="col-md-5 justify-content-end d-flex">
+                    <b class="text-light font fs-7" data-aos="fade-right">PORTOFOLIO</b>
+                </div>
+                
+                <div class="col-md-1 mt-5">
+                    <div class="hr-text"></div>
+                </div>
+                
+                <div class="col-md-4 mt-5">
+                    <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-tab1-tab" data-bs-toggle="pill" href="#v-pills-tab1" role="tab" aria-controls="v-pills-tab1" aria-selected="true">
+                            <div class="tabs-porto fs-1" data-aos="flip-right">
+                                Sketch Art
+                            </div>
+                        </a>
+                        <a class="nav-link" id="v-pills-tab2-tab" data-bs-toggle="pill" href="#v-pills-tab2" role="tab" aria-controls="v-pills-tab2" aria-selected="false">
+                            <div class="tabs-porto fs-1" data-aos="flip-right">
+                                Digital Art
+                            </div>
+                        </a>
+                        <a class="nav-link" id="v-pills-tab3-tab" data-bs-toggle="pill" href="#v-pills-tab3" role="tab" aria-controls="v-pills-tab3" aria-selected="false">
+                            <div class="tabs-porto fs-1" data-aos="flip-right">
+                                Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content my-8" id="v-pills-tabContent">
+                <div class="tab-pane fade show active mx-7" id="v-pills-tab1" role="tabpanel" aria-labelledby="v-pills-tab1-tab">
+                    <div class="row">
+                        <div id="carouselExampleControls" data-aos="zoom-in-down" class="col carousel carousell shadow slide " data-bs-ride="carousel">
+                            <div class="carousel-inner mt-3">
+                                <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col shadow-lg">
+                                    <!-- Card 1 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">Building Perspective</b>
+                                                <p class="card-text">One of my favorite sketch from my assigment. Can't believe i drew it.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col shadow-lg">
+                                    <!-- Card 2 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">Animal</b>
+                                                <p class="card-text">It's hard to draw the fur but i think is enough, not bad yeah.  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col shadow-lg">
+                                        <!-- Card 3 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot9.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">Manu Rios Back</b>
+                                                <p class="card-text">I doubt for draw it for the first time. So, i just drew the back's of Manu Rios, lol.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col shadow-lg">
+                                        <!-- Card 4 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">Manu Rios</b>
+                                                <p class="card-text">He's a model & actor from Spain. He's one of my favorite celebrity since 2018.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col shadow-lg">
+                                        <!-- Card 5 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot5.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">Iqbaale</b>
+                                                <p class="card-text">I know him from Coboy Junior. Nothing people perfect, but i swear he's incredible!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col shadow-lg">
+                                        <!-- Card 6 -->
+                                        <div class="card">
+                                            <img src="assets/Sketch Art/Pot6.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <b class="fs-4">CR7</b>
+                                                <p class="card-text">Most famous football player!! I drew it after watching the world cup. He's inspirational.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col shadow-lg">
+                                        <!-- Card 7 -->
+                                            <div class="card">
+                                                <img src="assets/Sketch Art/Pot7.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <b class="fs-4">Gavril</b>
+                                                    <p class="card-text">Drawing sketches full body is challenging. I need more time to drew it.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col shadow-lg">
+                                        <!-- Card 8 -->
+                                            <div class="card">
+                                                <img src="assets/Sketch Art/Pot8.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <b class="fs-4">Gavril Mom's</b>
+                                                    <p class="card-text">Same with Gavril Sketch, i do it for my final exam in semester 3.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col shadow-lg">
+                                        <!-- Card 9 -->
+                                            <div class="card">
+                                                <img src="assets/Sketch Art/Pot3.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <b class="fs-4">In Front of Me</b>
+                                                    <p class="card-text">Feel bored do nothing. I have a book and a pen, so i drew something in front of me.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col shadow-lg">
+                                            <!-- Card 10 -->
+                                            <div class="card">
+                                                <img src="assets/Sketch Art/Pot10.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <b class="fs-4">Alone</b>
+                                                    <p class="card-text">This is my mid exam. I drew my friend in front of me, and had to finish it that day.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <b class="fs-7 font text-yellow mt-5 text-end border-bottom" data-aos="fade-left">POTRAIT</b>
+                        </div>
+                    </div>
+
+                    <div class="my-7"></div>
+
+                    <div class="row">
+                        <div class="col-md-5 d-flex align-items-center justify-content-center">
+                            <b class="fs-7 font text-yellow border-bottom" data-aos="fade-right">LANDSCAPE</b>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div id="carouselExampleDark" data-aos="fade-up-left" class="col carousel carousell shadow slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            </div>
+                            <div class="carousel-inner mt-3 mb-4">
+                                <div class="carousel-item card active" data-bs-interval="10000">
+                                    <!-- Card 1 -->
+                                        <img src="assets/Sketch Art/land1.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item card" data-bs-interval="10000">
+                                    <!-- Card 2 -->
+                                        <img src="assets/Sketch Art/land2.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item card" data-bs-interval="10000">
+                                    <!-- Card 3 -->
+                                        <img src="assets/Sketch Art/land3.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item card" data-bs-interval="10000">
+                                    <!-- Card 4 -->
+                                        <img src="assets/Sketch Art/land4.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item card" data-bs-interval="10000">
+                                    <!-- Card 5 -->
+                                        <img src="assets/Sketch Art/land5.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item card" data-bs-interval="10000">
+                                    <!-- Card 6 -->
+                                        <img src="assets/Sketch Art/land6.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade mx-7" id="v-pills-tab2" role="tabpanel" aria-labelledby="v-pills-tab2-tab">
+                    <div data-aos="zoom-in" class="row">
+                        <div id="carouselDigital" class="slide shadow col-md-8 bg-white border-left justify-content-center" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/Digital Art/Gavril.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Digital Art/Gavril-mom.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Digital Art/makanan.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col justify-content-center text-end p-0">
+                            <img src="assets/Digital Art/poster.png" class="card-img-top border-right shadow-lg" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="storybook">
+                        <div class="my-8 sbook-head text-center" data-aos="flip-left">
+                            <b class="fs-7 font text-yellow border px-5 py-3 rounded-4">STORYBOOK</b>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center px-4" data-aos="fade-up-right">
+                                <b class="fs-1 font-weight-bold border-bottom text-center">Awan Tersambar Awan</b>
+                            </div>
+
+                            <div class="col-md-8 shadow-lg rounded-4" data-aos="zoom-out-left">
+                                <div id="carouselExampleIndicators" class="carousel carousell slide pt-3 pb-5">
+                                    <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/Digital Art/storybook-1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene4.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene5.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene6.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene7.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene8.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/Scene10.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-6">
+                            <div class="col-md-8 shadow-lg rounded-4" data-aos="zoom-out-right">
+                                <div id="carouselStorybook2" class="carousel carousell slide pt-3 pb-5 bg-navy">
+                                    <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#carouselStorybook2" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="assets/Digital Art/storybook-2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_4.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_5.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_6.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_7.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_8.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/hal_9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Digital Art/storybook-2closing.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselStorybook2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselStorybook2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 d-flex align-items-center justify-content-center px-4" data-aos="fade-up-left">
+                                <b class="fs-1 font-weight-bold border-bottom text-center">Ada Pelangi Setelah Hujan</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-tab3" role="tabpanel" aria-labelledby="v-pills-tab3-tab">
+                    <div class="website mx-7">
+                        <div class="row">
+                            <div class="d-flex align-items-center justify-content-center mb-6">
+                                <b class="fs-7 font text-yellow border-bottom" data-aos="fade-right">INVESCO</b>
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/invesco.gif" class="rounded-4 shadow-lg gif-web" alt="">
+                            </div>
+                        </div>
+                        <div class="col text-white font mt-5 fs-4">
+                            <p><b>INVESCO</b> adalah website pertama yang saya buat dengan menggunakan framework Laravel 
+                                yang dilengkapi dengan CRUD (Create, Read, Update, Delete). Fokus dari website ini 
+                                adalah dapat menggunakan CRUD yang terhubung dengan database. Dalam proses pembuatan 
+                                website ini selama -+3 bulan lamanya. 
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="d-flex align-items-center justify-content-center mb-6">
+                                <b class="fs-7 font text-yellow border-bottom" data-aos="fade-right">ENVICARE</b>
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/envicare.gif" class="rounded-4 shadow-lg gif-web" alt="">
+                            </div>
+                        </div>
+                        <div class="col text-white font mt-5 fs-4">
+                            <p><b>ENVICARE</b> adalah website kedua yang saya buat sekaligus menjadi Website Uji Sertifikasi
+                                Kompetensi (USK) pada tahun terakhir Sekolah Menengah Kejuruan 2021. Proyek pengerjaan ini
+                                juga terdapat CRUD dengan 1 level pengguna yaitu sebagai Admin yang dapat login untuk memegang 
+                                kendali website. 
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>  
+
+
+
+    <footer class="banner-container">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="banner-container">
+                    <img src="assets/footerr.png" class="d-block w-100" alt="...">
+                <div class="row d-flex justify-content-end align-items-center bg-white">
+                    <div class="col-6">
+                        <div class="d-flex justify-content-center">
+                            <b class="fs-1 font-weight-bold abtme-button">BELLA</b>
+                        </div>
+                            <p class="text-banner text-center">A motivated student specializing in Multimedia 
+                              Education at the Indonesian Education University. Enthusiastic learner, 
+                              always staying up-to-date with industry trends. Passionate about 
+                              contributing to the field of Internet Technology and make a positive impact.</p>
+                    </div>
+                    <div class="col-5 p-0 d-flex justify-content-center">
+                        <div class="col text-center">
+                            <b class="fs-2 font-weight-bold abtme-button">social media</b>
+                            <ul class="list-group justify-content-center list-group-horizontal-md">
+                                <li class="list-group-item"><a href="https://web.facebook.com/Bella.dqa"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                                <li class="list-group-item"><a href="mailto:belladinaqa@upi.edu"><i class="fas fa-envelope fa-lg"></i></a></li>
+                                <li class="list-group-item"><a href="https://instagram.com/Bella.dqa"><i class="fab fa-instagram fa-lg"></i></a></li>
+                                <li class="list-group-item"><a href="https://t.me/Belladqa"><i class="fab fa-telegram-plane fa-lg"></i></a></li>
+                                <li class="list-group-item"><a href="https://tiktok.com/@belladqa"><i class="fab fa-tiktok fa-lg"></i></a></li>
+                                <li class="list-group-item"><a href="https://www.linkedin.com/in/belladinaqa"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col justify-content-center d-flex mt-5">
+                            <p class="fs-6 text-muted mb-4 font">Original by Bella Dina Q'a © 2023</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>AOS.init({
+      });</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
